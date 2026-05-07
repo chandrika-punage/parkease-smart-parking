@@ -1,0 +1,47 @@
+.about-section {
+  width: 100%;
+}
+
+.about-top {
+  background: rgb(72,72,205);
+  text-align: center;
+  padding: 120px 20px 300px; /* extra bottom space for image */
+  position: relative;
+  color: white;
+}
+
+.about-top h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.about-top p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* IMAGE POSITIONED PROPERLY */
+.about-image {
+  position: absolute;
+  bottom: -120px;  /* pushes image into white area */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+}
+
+/* WHITE SECTION BELOW */
+.about-bottom {
+  background: #f2f2f2;  /* light grey like screenshot */
+  height: 300px;
+}

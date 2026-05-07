@@ -1,0 +1,19 @@
+.grow-section {
+  padding: 20px 20px;
+  background: rgb(72,72,205);
+}
+
+.grow-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grow-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e2a38;
+}
+
+.grow-heading span {
+  color: white;   /* highlight color */
+}

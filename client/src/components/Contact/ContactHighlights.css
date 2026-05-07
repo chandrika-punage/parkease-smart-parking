@@ -1,0 +1,58 @@
+.contact-contact-section {
+  width: 100%;
+  padding: 0;              /* REMOVE outer padding */
+  background: #f3f4f6;
+}
+
+
+.contact-contact-box {
+  width: 100%;                 /* FULL WIDTH */
+  padding: 80px 100px;         
+  background: rgb(124, 124, 224);         
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+
+/* Left Side */
+.contact-contact-left {
+  flex: 1;
+}
+
+.contact-contact-left h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.contact-contact-btn {
+  display: inline-block;
+  padding: 14px 34px;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-contact-btn:hover {
+  background: #222;
+  transform: translateY(-2px);
+}
+
+/* Right Side */
+.contact-contact-right {
+  flex: 1;
+}
+
+.contact-contact-right p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: black;
+  max-width: 500px;
+}

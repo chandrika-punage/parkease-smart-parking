@@ -1,0 +1,60 @@
+.architecture-section {
+  max-width: 1200px;        /* Keep inside page */
+  margin: 80px auto;        /* Center horizontally */
+  padding: 80px 40px;
+  background: #eccf94;
+  border-radius: 30px;      /* Curved corners */
+}
+
+
+.architecture-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.architecture-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+  text-align:justify;
+}
+
+.architecture-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  text-align:justify;
+
+}
+
+.architecture-buttons {
+  display: flex;
+  justify-content: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.arch-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.arch-btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+/* Highlighted button */
+.arch-btn.active {
+  background: #007bff;
+  color: #fff;
+}

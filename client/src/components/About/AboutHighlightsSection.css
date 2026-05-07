@@ -1,0 +1,89 @@
+.about-highlights-section {
+  background: #f3f4f6;
+  padding: 120px 20px;
+}
+
+.about-highlights-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+
+/* LEFT GRID */
+.about-highlights-left {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+/* CARD STYLE */
+.highlight-card {
+  background: #f8f8f8;
+  border: 1px solid #2d3748;
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+
+.highlight-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.highlight-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #475569;
+}
+
+/* RIGHT SIDE */
+.about-highlights-right {
+  flex: 1.2;
+}
+
+.about-highlights-right h2 {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.about-highlights-right p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.about-join-btn {
+  margin-top: 30px;
+  padding: 14px 30px;
+  background: rgb(72,72,205);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.about-join-btn:hover {
+  background: #d48b00;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .about-highlights-container {
+    flex-direction: column;
+  }
+
+  .about-highlights-left {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,61 @@
+.about-contact-section {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f3f4f6; /* Light grey background like screenshot */
+  display: flex;
+  justify-content: center;
+}
+
+/* Orange Container */
+.about-contact-box {
+  width: 100%;
+  max-width: 1200px;
+  background: rgb(72,72,205);
+  border-radius: 20px;
+  padding: 60px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Left Side */
+.about-contact-left {
+  flex: 1;
+}
+
+.about-contact-left h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.about-contact-btn {
+  display: inline-block;
+  padding: 14px 34px;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.about-contact-btn:hover {
+  background: #222;
+  transform: translateY(-2px);
+}
+
+/* Right Side */
+.about-contact-right {
+  flex: 1;
+}
+
+.about-contact-right p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffffff;
+  max-width: 500px;
+}

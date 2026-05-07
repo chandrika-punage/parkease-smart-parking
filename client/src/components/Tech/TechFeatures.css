@@ -1,0 +1,129 @@
+.tech-features {
+  padding: 80px 20px;
+  background: #f8f9fc;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.feature-card video {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.feature-icon {
+  font-size: 90px;
+  color: #3e4095;
+  margin-bottom: 20px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+/* WIFI ANIMATION */
+.wifi-animation {
+  position: relative;
+  width: 160px;     /* Increased size */
+  height: 180px;    /* Increased size */
+  margin: 0 auto 30px; /* Center horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wifi-animation span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid #007bff;  /* Thicker lines */
+  border-top: none;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Outer arc */
+.wifi-animation span:nth-child(1) {
+  width: 160px;
+  height: 80px;
+  bottom: 0;
+  animation-delay: 0s;
+}
+
+/* Middle arc */
+.wifi-animation span:nth-child(2) {
+  width: 120px;
+  height: 60px;
+  bottom: 10px;
+  animation-delay: 0.3s;
+}
+
+/* Inner arc */
+.wifi-animation span:nth-child(3) {
+  width: 80px;
+  height: 40px;
+  bottom: 20px;
+  animation-delay: 0.6s;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 90%;
+  }
+}

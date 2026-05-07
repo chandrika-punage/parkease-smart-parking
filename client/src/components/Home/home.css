@@ -1,0 +1,79 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HERO LAYOUT */
+.homepage {
+    padding: 80px 0;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.homepage-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* important */
+    gap: 140px;     
+
+}
+
+.homepage-left h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #111;
+    text-align: left; 
+
+}
+
+.homepage-left p {
+    font-size: 18px;
+    color: #555;
+    max-width: 450px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.homepage-left h1 .highlight {
+    color: rgb(72, 72, 205);
+}
+
+.homepage-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 16px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.primary-btn {
+    background: rgb(72, 72, 205);
+    color: white;
+}
+
+.secondary-btn {
+    background: black;
+    color: white;
+}
+
+.homepage-right {
+     flex: 1.4;              
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.homepage-right img {
+    width: 800px;
+    height: 600px;
+}
+

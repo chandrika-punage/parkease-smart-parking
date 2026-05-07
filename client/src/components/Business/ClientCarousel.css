@@ -1,0 +1,35 @@
+.client-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.client-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.logo-box img {
+  width: auto;
+  height: 60px;     /* fixed height */
+  object-fit: contain;
+}
+
+.logo-box img:hover {
+  opacity: 1;
+}
+
+/* Top & Bottom Lines */
+.line {
+  height: 1px;
+  background: black;
+  max-width: 1200px;   
+  margin: 0 auto;      /* center align */
+}

@@ -1,0 +1,48 @@
+/* SECTION */
+.carousel-section {
+  width: 100%;
+  padding: 10px 0 120px 0;
+  background: #ffffff;
+}
+
+/* THIS MUST MATCH YOUR UPPER SECTION WIDTH */
+.carousel-container {
+  max-width: 1200px;   /* Same as your main container */
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-top: -90px;
+}
+
+/* Swiper */
+.carousel-container .swiper {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+/* Center slides */
+.carousel-container .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card */
+.cardd {
+  width: 100%;
+  max-width: 800px;  /* Adjust if needed */
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.cardd img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid #242121;
+}
+
+.cardd:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}

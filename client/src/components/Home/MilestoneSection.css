@@ -1,0 +1,80 @@
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.milestone-section {
+    width: 100%;
+    padding: 80px 40px;
+    background: #ffffff;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.milestone-title span {
+    color: rgb(72, 72, 205);
+}
+
+
+.milestone-section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.milestone-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #0b1c2d;
+    margin-bottom: 20px;
+}
+
+.highlight-pill {
+    color: black;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.milestone-divider {
+  width: 80%;
+  height: 1px;
+  background: black;
+  margin: 1px auto 20px;  /* auto makes it center */
+}
+
+
+.milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.milestone-box h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4a5561;
+    margin: 20px 0 10px;
+}
+
+.milestone-box p {
+    font-size: 20px;
+    color: #5f6c7b;
+}
+
+/* Icon Circle */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background: rgb(72, 72, 205);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}

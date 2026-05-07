@@ -1,0 +1,83 @@
+.park-section {
+  padding: 100px 20px;
+  background: #f8f8f8;
+}
+
+.park-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+  
+}
+
+/* CARD BASE */
+.park-card {
+  flex: 1;
+  background: #e5ce80;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  border: 1px solid black;
+}
+
+.park-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+
+.park-card img {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* LIST */
+.card-list {
+  list-style: none;
+  padding: 0;
+}
+
+.card-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+/* NEGATIVE LIST (Red X style) */
+.negative li::before {
+  content: "✖";
+  color: #e63946;
+  margin-right: 10px;
+}
+
+/* POSITIVE LIST (Green Check style) */
+.positive li::before {
+  content: "✔";
+  color: #2a9d8f;
+  margin-right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .park-container {
+    flex-direction: column;
+  }
+}

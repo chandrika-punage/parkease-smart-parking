@@ -1,0 +1,77 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 60px;
+}
+
+/* HERO LAYOUT */
+.knowmore {
+    padding: 90px 0;
+    background-color: #ffffff;
+    color: #111111;
+    
+}
+
+.knowmore-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* important */
+    gap: 140px;     
+
+}
+
+.knowmore-left h1 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #111;
+    text-align: left; 
+
+}
+
+.knowmore-left p {
+    font-size: 20px;
+    color: #555;
+    max-width: 450px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.knowmore-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 16px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.primary-btn {
+    background: rgb(72, 72, 205);
+    color: white;
+}
+
+.secondary-btn {
+    background: black;
+    color: white;
+}
+
+.knowmore-right {
+     flex: 1.4;              
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.knowmore-right img {
+    width: 500px;
+    height: 500px;
+}
+

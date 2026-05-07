@@ -1,0 +1,36 @@
+/* SECTION */
+.parking-section {
+  width: 100%;
+  padding: 120px 0;
+  background: #ffffff;
+}
+
+/* NEW container name to avoid global conflict */
+.parking-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-top: -110px;
+
+  display: block;   /* force vertical layout */
+}
+
+/* TITLE */
+.parking-title {
+  font-size: 46px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.parking-title span {
+  color: rgb(72,72,205);   
+}
+
+/* PARAGRAPH */
+.parking-text {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #4b5563;
+}

@@ -1,0 +1,77 @@
+.reads-section {
+  background: #f5f5f5;
+  padding: 80px 20px;
+}
+
+.reads-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.reads-heading h2 {
+  font-size: 36px;
+  color: #1e2a38;
+}
+
+.reads-heading span {
+  color:  rgb(72, 72, 205);
+}
+
+.reads-line {
+  width: 80%;
+  height: 1px;
+  background: #aaa;
+  margin: 20px auto 0;
+}
+
+/* Layout */
+.reads-content {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Categories */
+.categories {
+  width: 200px;
+  color: black;
+}
+
+.category-item {
+  padding: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.category-item:hover {
+  background: #eaeaea;
+}
+
+.category-item.active {
+  background: #eaeaea;
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+/* Grid */
+.reads-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.read-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.read-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
