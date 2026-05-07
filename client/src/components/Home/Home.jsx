@@ -26,7 +26,9 @@ const HomePage = () => {
           </p>
 
           <div className="homepage-buttons">
-            <button onClick={() => window.open("https://valetez.app", "_blank")} className="btn primary-btn">FIND PARKING</button>
+            {/* <button onClick={() => window.open("https://valetez.app", "_blank")} className="btn primary-btn">FIND PARKING</button> */}
+            <button className="btn primary-btn">FIND PARKING</button>
+
             <button onClick={()=>navigate("/rent-parking")} className="btn secondary-btn">RENT OUT PARKING</button>
           </div>
         </div>
