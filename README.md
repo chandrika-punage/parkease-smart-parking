@@ -2,7 +2,10 @@
 
 ParkEase is a modern smart parking web application designed to simplify parking space management and improve the overall parking experience. The platform helps users quickly find available parking slots, reduce traffic congestion, and provide a seamless parking solution.
 
+🌐 **Live Demo:** [Click here to view ParkEase]([https://your-vercel-link.vercel.app](https://parkease-smart-parking-pi.vercel.app/))
+
 ---
+
 
 ## 🌟 Features
 
